@@ -1,0 +1,1 @@
+<?php debug($twilio, true); ?>
