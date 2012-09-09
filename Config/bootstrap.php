@@ -123,3 +123,4 @@ Cache::config('default', array('engine' => 'File'));
  *
  */
 CakePlugin::load('Facebook');
+CakePlugin::load(array('Twilio'));
