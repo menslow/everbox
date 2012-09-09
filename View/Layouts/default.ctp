@@ -18,6 +18,8 @@
 	<?php echo $this->Html->css(array('base', 'grid')); ?>
 
 	<?php echo $scripts_for_layout; ?>
+	<?php echo $this->Html->script(array('http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js', 'http://use.typekit.com/trk3gqn.js', 'plugins', 'app')); ?>
+
 </head>
 
 
@@ -27,9 +29,9 @@
 
 		<div class="toolbox">
 			<div class="tools container_12">
-        <div class="logo grid_4">
-          <img src="img/Logo-ThreadBear.png"/>
-        </div>
+				<div class="logo grid_4">
+					<?php echo $this->Html->image('Logo-ThreadBear.png', array('alt' => 'ThreadBear')); ?>
+				</div>
 				<div class="account prefix_4 grid_4">
 					<ul class="right">
 					<?php if(isset($auth_user)) : ?>
