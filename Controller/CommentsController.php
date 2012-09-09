@@ -4,6 +4,7 @@ class CommentsController extends AppController {
 	var $uses = array('Comment', 'Thread', 'User');
 
 	public $paginate = array(
+		'recursive' => 2,
 		'limit' => 25,
 		'order' => array(
 			'Comment.created' => 'DESC'

@@ -23,8 +23,9 @@
 
 	<nav class="grid_8">
 		<ul>
-			<li><?php echo $this->Html->link(__('Add Comment'), array('controller' => 'Comments', 'action' => 'add')); ?></li>
+			<li><?php echo $this->Html->link(__('Add Comment'), array('controller' => 'comments', 'action' => 'add')); ?></li>
 		</ul>
 	</nav>
 
 </section>
+<?php debug($comments); ?>

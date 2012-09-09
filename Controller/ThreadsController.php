@@ -1,9 +1,10 @@
 <?php
 class ThreadsController extends AppController {
 
-	var $uses = array('User', 'Thread');
+	var $uses = array('Thread', 'User');
 
 	public $paginate = array(
+		'recursive' => 3,
 		'limit' => 25,
 		'order' => array(
 			'Thread.modified' => 'DESC'

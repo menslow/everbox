@@ -24,10 +24,10 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 ================================================== */
 
 h1, h2, h3, h4, h5, h6	{ position: relative; }
-h1	{ font-family: "adobe-text-pro", sans-serif; font-size: 90px; line-height: 125px; font-weight: bold;  }
-h2	{ font-family: "adobe-text-pro", sans-serif; font-size: 36px; line-height: 42px; font-weight: 400; padding-bottom: 5px; font-style: normal;  }
-h3	{ font-family: "museo-sans",sans-serif;  font-size: 18px; line-height: 35px; font-weight: normal; font-weight: 700; }
-h4	{ font-family: "museo-sans",sans-serif; font-size: 15px; line-height: 25px; font-weight: normal; font-weight: 700; }
+h1	{ font-family: "adobe-text-pro", sans-serif; font-size: 28px; line-height: 36px; font-weight: bold;  }
+h2	{ font-family: "adobe-text-pro", sans-serif; font-size: 18px; line-height: 24px; font-weight: 400; padding-bottom: 5px; font-style: normal;  }
+h3	{ font-family: "museo-sans",sans-serif;  font-size: 14px; line-height: 20px; font-weight: normal; font-weight: 700; }
+h4	{ font-family: "museo-sans",sans-serif; font-size: 12px; line-height: 16px; font-weight: normal; font-weight: 700; }
 h5	{ font-size: 13px; line-height: 20px; }
 h6	{ font-size: 13px; line-height: 20px; }
 

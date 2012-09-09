@@ -12,7 +12,7 @@
 		<tr>
 			<td><?php echo $thread['Thread']['id']; ?></td>
 			<td><?php echo $thread['Thread']['file_id']; ?></td>
-			<td><?php echo $this->Html->link($thread['Thread']['name'], array('controller' => 'Threads', 'action' => 'view', $thread['Thread']['id'])); ?></td>
+			<td><?php echo $this->Html->link($thread['Thread']['name'], array('controller' => 'threads', 'action' => 'view', $thread['Thread']['id'])); ?></td>
 			<td><?php echo $thread['Thread']['created']; ?></td>
 			<td><?php echo $thread['Thread']['modified']; ?></td>
 		</tr>
@@ -21,7 +21,7 @@
 
 	<nav class="grid_8">
 		<ul>
-			<li><?php echo $this->Html->link(__('Add Thread'), array('controller' => 'Threads', 'action' => 'add')); ?></li>
+			<li><?php echo $this->Html->link(__('Add Thread'), array('controller' => 'threads', 'action' => 'add')); ?></li>
 		</ul>
 	</nav>
 

@@ -61,13 +61,7 @@
 		<div class="content">
 
 			<div class="full container_12">
-				<section class="single clearfix">
-					<article>
-						<div class="grid_1">
-							<?php echo $content_for_layout; ?>
-						</div>
-					</article>
-				</section>
+				<?php echo $content_for_layout; ?>
 			</div>
 
 		</div>
