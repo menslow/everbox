@@ -1,7 +1,7 @@
 <?php
 class Thread extends AppModel {
 	public $name = 'Thread';
-	//public $hasMany = array('Comment' => array('foreignKey' => 'thread_id'));
+	public $hasMany = array('Comment');
 	public $validate = array(
 		'name' => array(
 			'required' => array(
