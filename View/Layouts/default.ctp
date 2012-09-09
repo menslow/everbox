@@ -15,16 +15,6 @@
 	<?php echo $this->Html->meta('favicon.ico', '/favicon.ico', array('type' => 'icon')); ?>
 	<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 
-	<!-- open graph -->
-	<meta property="og:title" content="" />
-	<meta property="og:type" content="article" />
-	<meta property="og:url" content=""/>
-	<meta property="og:image" content="" />
-	<meta property="og:site_name" content="" />
-	<meta property="og:description" content="" />
-	<meta property="fb:app_id" content="" />
-	<!-- end open graph -->
-
 	<?php echo $this->Html->css(array('base', 'grid')); ?>
 
 	<?php echo $scripts_for_layout; ?>
@@ -69,15 +59,6 @@
 		</div>
 
 		<div class="content">
-		
-			<div class="wide banner">
-				<section class="container_12">
-					<article class="grid_12">
-						<h1><?php __('Death Star'); ?></h1>
-						<p><?php __('That\'s no moon... that\'s a space station.'); ?></p>
-					</article>
-				</section>	
-			</div>
 
 			<div class="full container_12">
 				<section class="single clearfix">
