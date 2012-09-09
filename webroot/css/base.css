@@ -74,11 +74,16 @@ section { width: 100%;  }
 /* Tools
 ================================================== */
 	
-.toolbox { display: block; background: #333; height: 40px; }
+.toolbox { display: block; height: 120px; 
+           background-image:url('../img/RepeatingHeaderTile.png');
+           background-repeat:repeat-x;
+         }
 
-.account {  }
+.tools { height: 120px; }
+
+.account { height: 120px; }
 	.account li { float: left; display: inline; }
-		.account a { float: left; color: #fff; font-family: "museo-sans",sans-serif; padding: 10px 20px; color: #fff; text-decoration: none; font-size: 12px;  }
+		.account a { float: left; color: #fff; font-family: "museo-sans",sans-serif; padding: 10px 20px; color: #fff; text-decoration: none; font-size: 15px;  }
 
 /* Header
 ================================================== */	
@@ -87,8 +92,7 @@ header { height: 100px; }
 
 .hgroup { padding-bottom: 10px; }
 
-.logo, .logo a { display: block; background: url(../img/logo.png) 0 10px no-repeat; 
-	font-family: Arial; font-size: 24px; line-height: 100px; }
+.logo, .logo a { display: block; font-family: Arial; font-size: 24px; line-height: 77px; padding-top: 23px;}
 
 
 /* Navigation

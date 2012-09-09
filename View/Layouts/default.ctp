@@ -27,7 +27,10 @@
 
 		<div class="toolbox">
 			<div class="tools container_12">
-				<div class="account prefix_8 grid_4">
+        <div class="logo grid_4">
+          <img src="img/Logo-ThreadBear.png"/>
+        </div>
+				<div class="account prefix_4 grid_4">
 					<ul class="right">
 					<?php if(isset($auth_user)) : ?>
 						<li><?php echo $this->Html->link($auth_user['username'], array('controller' => 'users', 'action' => 'view', $auth_user['id'])); ?></li>
