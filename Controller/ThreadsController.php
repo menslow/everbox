@@ -1,7 +1,7 @@
 <?php
 class ThreadsController extends AppController {
 
-	var $uses = array('Thread');
+	var $uses = array('User', 'Thread');
 
 	public $paginate = array(
 		'limit' => 25,

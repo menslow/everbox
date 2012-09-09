@@ -4,6 +4,7 @@ CREATE TABLE users (
     username VARCHAR(50),
     password VARCHAR(50),
     role VARCHAR(20),
+    email VARCHAR(100),
     dropbox_token VARCHAR(50),
     dropbox_token_secret VARCHAR(50),
     created DATETIME DEFAULT NULL,

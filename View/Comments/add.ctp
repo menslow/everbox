@@ -3,8 +3,12 @@
 	<fieldset>
 		<legend><?php echo __('Add Comment'); ?></legend>
 	<?php
-		echo $this->Form->input('thread_id');
-		echo $this->Form->input('user_id');
+		echo $this->Form->input('thread_id', array(
+			'options' => $threads
+		));
+		echo $this->Form->input('user_id', array(
+			'options' => $users
+		));
 		echo $this->Form->input('content');
 	?>
 	</fieldset>

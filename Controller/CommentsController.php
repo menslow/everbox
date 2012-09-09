@@ -1,7 +1,7 @@
 <?php
 class CommentsController extends AppController {
 
-	var $uses = array('Comment');
+	var $uses = array('Comment', 'Thread', 'User');
 
 	public $paginate = array(
 		'limit' => 25,
@@ -35,6 +35,19 @@ class CommentsController extends AppController {
 			} else {
 				$this->Session->setFlash(__('The comment could not be saved. Please, try again.'));
 			}
+		} else {
+			$users = $this->User->find('list', array(
+				'fields' => array('User.id', 'User.username'),
+				'order' => array('User.username ASC'),
+				'recursive' => 0
+			));
+			$threads = $this->Thread->find('list', array(
+				'fields' => array('Thread.id', 'Thread.name'),
+				'order' => array('Thread.name ASC'),
+				'recursive' => 0
+			));
+			$this->set('users', $users);
+			$this->set('threads', $threads);
 		}
 	}
 
