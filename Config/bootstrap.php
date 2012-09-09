@@ -122,5 +122,5 @@ Cache::config('default', array('engine' => 'File'));
  * CakePlugin::load('DebugKit'); //Loads a single plugin named DebugKit
  *
  */
-CakePlugin::load('Facebook');
 CakePlugin::load('Dropbox');
+CakePlugin::load(array('Twilio'));

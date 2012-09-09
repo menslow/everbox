@@ -3,6 +3,8 @@
 	<fieldset>
 		<legend><?php echo __('Add User'); ?></legend>
 	<?php
+		echo $this->Form->input('dropbox_token');
+		echo $this->Form->input('dropbox_token_secret');
 		echo $this->Form->input('username');
 		echo $this->Form->input('password');
 		echo $this->Form->input('role', array(
