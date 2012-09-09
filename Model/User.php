@@ -2,6 +2,8 @@
 App::uses('AuthComponent', 'Controller/Component');
 class User extends AppModel {
 	public $name = 'User';
+	public $hasMany = array('Comment');
+	public $belongsTo = array('Comment');
 	public $validate = array(
 		'username' => array(
 			'required' => array(

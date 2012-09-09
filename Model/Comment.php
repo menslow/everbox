@@ -1,7 +1,7 @@
 <?php
 class Comment extends AppModel {
 	public $name = 'Comment';
-	public $belongsTo = array('User','Thread');
+	public $belongsTo = array('Thread', 'User');
 	public $validate = array(
 		'user_id' => array(
 			'required' => array(

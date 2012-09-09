@@ -22,7 +22,7 @@
 		<div class="grid_7">
 			<?php foreach ($thread['Comment'] as $comment): ?>
 			<article>
-				<img src="" />
+				<?php echo $this->Html->image('SampleAvatar50.png', array('alt' => 'Avatar')); ?>
 				<h4>David Dawson</h4><span><?php echo $comment['created']; ?></span>
 				<p><?php echo $comment['content']; ?></p>
 			</article>
