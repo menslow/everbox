@@ -58,8 +58,13 @@ a { font-family: Helvetica, sans-serif; color: #316698; text-decoration: none; /
 /* Global
 ================================================== */
 
-body { font-family: "museo-slab",serif; color: #333; background: #ccc; }
-	header { overflow: hidden; position: relative; background: #f5f5f3; }
+body { background: #ccc;
+       font-family: arial, sans-serif;
+       color: #222222;
+       font-size: 14px;
+       font-weight: 400;
+     }
+header { overflow: hidden; position: relative; background: #f5f5f3; }
 	
 section { width: 100%;  }
 	section article { margin: 0 auto; }
@@ -83,7 +88,14 @@ section { width: 100%;  }
 
 .account { height: 120px; }
 	.account li { float: left; display: inline; }
-		.account a { float: left; color: #fff; font-family: "museo-sans",sans-serif; padding: 10px 20px; color: #fff; text-decoration: none; font-size: 15px;  }
+		.account a { float: left; padding: 10px 20px; color: #fff; text-decoration: none; 
+                 font-family: open-sans, arial, sans-serif;
+                 color: #FFFFFF;
+                 font-size: 14px;
+                 font-weight: 700;
+                 text-transform: uppercase;
+                 padding-top: 52px;
+               }
 
 /* Header
 ================================================== */	
@@ -92,7 +104,7 @@ header { height: 100px; }
 
 .hgroup { padding-bottom: 10px; }
 
-.logo, .logo a { display: block; font-family: Arial; font-size: 24px; line-height: 77px; padding-top: 23px;}
+.logo, .logo a { display: block; font-family: Arial; font-size: 24px; line-height: 75px; padding-top: 25px;}
 
 
 /* Navigation
