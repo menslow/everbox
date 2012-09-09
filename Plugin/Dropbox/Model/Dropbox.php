@@ -164,5 +164,4 @@ class Dropbox extends DropboxAppModel {
 		}
 		return $conds;
 	}
->>>>>>> 7495193f6a9e11b0ecea376c437bd6433750bcde
 }
